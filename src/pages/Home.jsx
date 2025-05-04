@@ -5,6 +5,7 @@ import DarkWebLab from "../components/DarkWebLab";
 import CameraTool from "../components/CameraTool";
 import MalwareLab from "../components/MalwareLab";
 import MasterJiConsole from "../components/MasterJiConsole";
+import SystemMonitor from "../components/SystemMonitor";
 
 function Home() {
   return (
@@ -44,6 +45,10 @@ function Home() {
 
         <div id="masterji"> 
           <MasterJiConsole />
+        </div>
+
+        <div id="monitor">
+          <SystemMonitor />
         </div>
 
       </div>
