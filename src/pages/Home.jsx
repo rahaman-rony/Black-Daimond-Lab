@@ -4,6 +4,7 @@ import WiFiTool from "../components/WiFiTool";
 import DarkWebLab from "../components/DarkWebLab";
 import CameraTool from "../components/CameraTool";
 import MalwareLab from "../components/MalwareLab";
+import MasterJiConsole from "../components/MasterJiConsole";
 
 function Home() {
   return (
@@ -39,6 +40,10 @@ function Home() {
             <h2>Malware Developer Lab</h2>
             <p>Build, simulate and analyze malware.</p>
             <MalwareLab />
+        </div>
+
+        <div id="masterji"> 
+          <MasterJiConsole />
         </div>
 
       </div>
