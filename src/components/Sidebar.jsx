@@ -8,6 +8,7 @@ const Sidebar = () => {
     { id: "malware", label: "Malware Lab" },
     { id: "ai", label: "Master-ji Console" },
     { id: "monitor", label: "System Monitor" },
+    { id: "info", label: "Lab Info" },
   ];
 
   return (
