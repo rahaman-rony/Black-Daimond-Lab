@@ -14,7 +14,7 @@ function Home() {
       <Navbar />
       
 
-      <div style={{ padding: "2rem" }}>
+      <div style={{ padding: "2rem 2rem 2rem 250px" }}>
         <h1 id="dashboard" >Welcome to Black Diamond Lab</h1>
         <p>
           Ethical Hacking | Dark Web Lab | WiFi Tool | Malware Dev | Camera Exploits

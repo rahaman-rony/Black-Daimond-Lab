@@ -17,12 +17,24 @@ const Navbar = () => {
 
 const styles = {
   nav: {
-    background: "#101010",
-    padding: "1rem 2rem",
+    position: "fixed",
+    top: 0,
+    left: "220px", // Sidebar এর width এর সমান
+    right: 0,
+    height: "60px",
+    backgroundColor: "#111",
+    color: "#fff",
     display: "flex",
-    justifyContent: "space-between",
     alignItems: "center",
-    borderBottom: "1px solid #444"
+    justifyContent: "space-between",
+    padding: "0 1rem",
+    zIndex: 999
+    // background: "#101010",
+    // padding: "1rem 2rem",
+    // display: "flex",
+    // justifyContent: "space-between",
+    // alignItems: "center",
+    // borderBottom: "1px solid #444"
   },
   logo: {
     fontSize: "1.5rem",

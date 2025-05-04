@@ -29,6 +29,7 @@ const LabInfoPanel = () => {
 
 const styles = {
   container: {
+    padding: "2rem ",
     backgroundColor: "#111",
     color: "#fff",
     padding: "1.5rem",

@@ -47,7 +47,7 @@ const WiFiTool = () => {
 
 const styles = {
   container: {
-    padding: "2rem",
+    padding: "2rem ",
     backgroundColor: "#111",
     borderRadius: "10px",
     marginTop: "1rem",

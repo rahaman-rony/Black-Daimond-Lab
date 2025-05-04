@@ -54,6 +54,7 @@ const MasterJiConsole = () => {
 
 const styles = {
   container: {
+    padding: "2rem ",
     backgroundColor: "#111",
     color: "#eee",
     padding: "1.5rem",

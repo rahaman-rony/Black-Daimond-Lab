@@ -39,7 +39,7 @@ const DarkWebLab = () => {
 
 const styles = {
   container: {
-    padding: "2rem",
+    padding: "2rem ",
     marginTop: "2rem",
     backgroundColor: "#111",
     borderRadius: "10px",
