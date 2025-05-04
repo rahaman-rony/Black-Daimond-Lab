@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import WiFiTool from "../components/WiFiTool";
 import DarkWebLab from "../components/DarkWebLab";
+import CameraTool from "../components/CameraTool";
 
 function Home() {
   return (
@@ -30,6 +31,7 @@ function Home() {
         <div id="camera">
             <h2>Camera Exploitation Tool</h2>
             <p>Simulate and test camera-based vulnerabilities.</p>
+            <CameraTool />
         </div>
 
         <div id="malware">
