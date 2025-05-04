@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import WiFiTool from "../components/WiFiTool";
 import DarkWebLab from "../components/DarkWebLab";
 import CameraTool from "../components/CameraTool";
+import MalwareLab from "../components/MalwareLab";
 
 function Home() {
   return (
@@ -37,6 +38,7 @@ function Home() {
         <div id="malware">
             <h2>Malware Developer Lab</h2>
             <p>Build, simulate and analyze malware.</p>
+            <MalwareLab />
         </div>
 
       </div>
